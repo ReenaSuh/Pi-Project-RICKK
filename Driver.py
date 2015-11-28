@@ -1,3 +1,9 @@
+# Group 4
+# Catherine O'Mary
+# Keerthana Ramesh
+# Kayla Scott
+# Reena Suh
+
 from time import sleep
 import sys
 import Adafruit_DHT 
