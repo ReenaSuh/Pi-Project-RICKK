@@ -18,7 +18,7 @@ def main:
     #Get max temp from keyboard
     max_temp=raw_input("Enter the temperature at which you would like the fan to turn on: ")
     while max_temp <= min_temp :
-        max_temp=raw_input(“Make sure the max temperature is greater than the minimum temperature: “)
+        max_temp=raw_input("Make sure the max temperature is greater than the minimum temperature: ")
 
     #Get min hum from keypad
     min_hum=raw_input("Enter the humidity at which you would like the humidifier to turn on: ")
@@ -26,7 +26,7 @@ def main:
     #Get max hum from keypad
     max_hum=raw_input("Enter the humidity at which you would like the humidifier to turn off: ")
     while max_hum <= min_hum :
-       max_hum=raw_input(“Make sure the max humidity is greater than the minimum humidity: ”)
+       max_hum=raw_input("Make sure the max humidity is greater than the minimum humidity: ")
 
 
     “””*****************************Making Decisions*******************************”””
